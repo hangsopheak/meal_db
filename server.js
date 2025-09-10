@@ -14,7 +14,7 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
 // Folder in Blob where we store databases
-const BLOB_FOLDER = 'db';
+const BLOB_FOLDER = 'meals_db';
 
 // Validate GUID format
 function isValidGUID(guid) {
